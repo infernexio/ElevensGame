@@ -1,10 +1,14 @@
 import java.util.List;
 import java.util.ArrayList;
-
+/**
+ * @author - Sohail Shaik
+ * @Date - Apr 27, 2020
+ * @Assignment - ElevensBoard.java
+ */
 /**
  * The ElevensBoard class represents the board in a game of Elevens.
  */
-public class ElevensBoard extends Board {
+public class SSElevensBoard extends Board {
 
 	/**
 	 * The size (number of cards) on the board.
@@ -38,7 +42,7 @@ public class ElevensBoard extends Board {
 	/**
 	 * Creates a new <code>ElevensBoard</code> instance.
 	 */
-	 public ElevensBoard() {
+	 public SSElevensBoard() {
 	 	super(BOARD_SIZE, RANKS, SUITS, POINT_VALUES);
 	 }
 
